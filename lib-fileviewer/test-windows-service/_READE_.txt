@@ -1,0 +1,12 @@
+FileWatcherService-xxx.exe - WinSW-exe (https://github.com/winsw/winsw/releases) um FileWatcher als Windows Service zu installieren
+-> FileWatcherService.xml - WinSW Konfig
+-> service_install_start.bat - FileWatcher als Service installieren und starten
+-> service_stop_uninstall.bat - FileWatcher Service stoppen und als Service deinstallieren
+
+FileWatcher.jar - das Programm
+
+start.bat - direkter Start des FileWatcher als Kommandozeile
+
+config.properties -> config für Pfad auf PDF überwchsen
+config.properties.smo -> config für Pfad auf SMO überwachen
+

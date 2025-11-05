@@ -1,0 +1,9 @@
+<service>
+  <id>FileMover</id>
+  <name>File Mover</name>
+  <description>Überwacht Ordner auf neue Dateien und verschiebt sie automatisch.</description>
+  <executable>java</executable>
+  <arguments>-jar "FileMover.jar"</arguments>
+  <logpath>logs</logpath>
+  <log mode="roll"/>
+</service>

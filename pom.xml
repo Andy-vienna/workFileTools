@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>org.andy</groupId>
+	<artifactId>FileTools-parent</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+	<name>FileTools Parent</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
+	<modules>
+		<module>lib-filemover</module>
+		<module>lib-fileviewer</module>
+		<module>lib-ordermanagerMulti</module>
+		<module>lib-ordermanagerSingle</module>
+	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.andy</groupId>
+				<artifactId>lib-filemover</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>org.andy</groupId>
+				<artifactId>lib-fileviewer</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>org.andy</groupId>
+				<artifactId>lib-ordermanagerMulti</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>org.andy</groupId>
+				<artifactId>lib-ordermanagerSingle</artifactId>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+</project>

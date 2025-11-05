@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>workFileTools</name>
+	<comment></comment>
+	<projects>
+		<project>lib-filemover</project>
+		<project>lib-fileviewer</project>
+		<project>lib-ordermanagerMulti</project>
+		<project>lib-ordermanagerSingle</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+</projectDescription>
