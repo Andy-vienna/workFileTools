@@ -3,6 +3,7 @@
 	<name>filemover</name>
 	<comment></comment>
 	<projects>
+		<project>workFileTools</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
